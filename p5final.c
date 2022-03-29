@@ -8,7 +8,7 @@ int input()
 }
 int gcd(int a,int b)
 { int r;
-  for(int i=1;i<=a && i<=b;i++)
+  for(int i=3;i<=a && i<=b;i++)
     {
       if(a%i==0 && b%i==0)
          r=i;
@@ -27,5 +27,4 @@ int main()
   hcf=gcd(a,b);
   output(a,b,hcf);
   return 0;
-
 }

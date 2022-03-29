@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int input_side()
 {
@@ -27,7 +26,6 @@ void output(int a,int b,int c,int isscalene)
     printf("The triange is not scalene");
   }
 }
-
 int main()
 {
   int a,b,c,isscalene;
